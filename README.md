@@ -7,6 +7,7 @@ WITH GRANT OPTION; FLUSH PRIVILAGES;
 
 ### DATABASE INCLUDED:
 ## md5_password 
+![database](https://user-images.githubusercontent.com/28576445/27514796-6d589e92-59b2-11e7-915b-dfc2b5e0cca5.PNG)
 ## TABLES included: 
 # 1.student_registration:
 To store the students(non-admins). It contains 3 fields:id(auto-incremented),student_id,password
