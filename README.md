@@ -31,7 +31,8 @@ To store the notes. It contains 3 fields:id(auto-incremented),subject,notes
 ### MORE DETAILS ABOUT THE TASK
 # CONNECTION TO DATABASE:
   used SQL query: mysqli_connect("localhost","prof_admin","prof1234","md5_password);
-  
+# ALL VALUES ARE OBTAINED BY USING $_POST COMMAND OF php
+
 # 1.FIRST CREATED REGISTRATION PAGE:
 ![registration](https://user-images.githubusercontent.com/28576445/27514803-861fa7a4-59b2-11e7-8f22-e68fe5210e48.PNG)
   It asks for the studentid and password and stores the information in student_registration table.There are 3 labels:STUDENT      ID,PASSWORD,RETYPE PASSWORD.It displays alert message either when any field is empty or when passwords don't match.
@@ -39,4 +40,10 @@ To store the notes. It contains 3 fields:id(auto-incremented),subject,notes
   
 # 2.THEN CREATED LOGIN PAGE:
 ![login](https://user-images.githubusercontent.com/28576445/27514814-acbc23a6-59b2-11e7-99fa-4151670c2d52.PNG)
-Already registered users can login.It asks whether you are professor(admin) or student.The admin can log in using username and        password.If entries are incorrect it displays an alert message.Otherwise the user is directed to bulletin bard page.
+Already registered users can login.It asks whether you are professor(admin) or student.The admin can log in using username and        password.If entries are incorrect it displays an alert message.Otherwise the user is directed to bulletin board page.
+
+# 3.BULLETIN BOARD PAGE:
+FOR STUDENTS: The page just displays the student_notes table.There is LOGOUT option which redirects to login page.
+For displaying the data in table format I used php command "echo".
+
+FOR ADMIN:The page displays 2 labels to enter subject name and corresponding note.There are 3 options:ADD(to add a note),DISPLAY(to display the student_notes table),DELETE(to delete a note).After adding or deleting a note one can use DISPLAY ption to see the updated student_ notes table.
