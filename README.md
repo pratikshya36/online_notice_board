@@ -15,6 +15,8 @@ To store the students(non-admins). It contains 3 fields:id(auto-incremented),stu
 
 # 2.admins_registration:
 To store the admins.(The original admin is also included in this table). It contains 3 fields:id(auto-incremented),username,password
+![admin_registration](https://user-images.githubusercontent.com/28576445/27514798-7877d5a4-59b2-11e7-8762-619bb4a5d012.PNG)
 
 # 3.student_notes:
-To store the notes. It contains 3 fields:id(auto-incremented),subject,notes       
+To store the notes. It contains 3 fields:id(auto-incremented),subject,notes 
+![student_notes](https://user-images.githubusercontent.com/28576445/27514800-7f513ea6-59b2-11e7-8e84-b2e1d0b32885.PNG)
