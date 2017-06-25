@@ -10,6 +10,7 @@ WITH GRANT OPTION; FLUSH PRIVILAGES;
 ## TABLES included: 
 # 1.student_registration:
 To store the students(non-admins). It contains 3 fields:id(auto-incremented),student_id,password
+![student_registration](https://user-images.githubusercontent.com/28576445/27514738-1985ed2a-59b1-11e7-8ad9-d20221d4f907.PNG)
 
 # 2.admins_registration:
 To store the admins.(The original admin is also included in this table). It contains 3 fields:id(auto-incremented),username,password
