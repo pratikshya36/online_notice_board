@@ -1,5 +1,12 @@
 # online_notice_board
 use github issues to host images
+## SOFTWARE USED
+WAMP 
+## EDITOR USED:
+NOTEPAD++
+## BROWSER USED:
+GOOGLE CHROME
+
 ### CODE FOR CREATING ADMIN:
 CREATE USER 'prof_admin'@'localhost' IDENTIFIED BY 'prof1234'; 
 GRANT ALL PRIVILEGES ON md5_password.* TO 'prof_admin'@'localhost' 
