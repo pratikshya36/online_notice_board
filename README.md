@@ -58,7 +58,7 @@ So I created 2 bulletin board pages:online_board.php for student
  It has a label ENTER STUDENT ID where the admin enters the id(student_id) of the student who has to be made the admin.Then the user can click on UPGRADE ACCESS LEVEL to make him/her the admin.It involves deleting that student's record from student_registration table and insert it into admins_registration table.Using the student id inputed by the current admin I searched for the record from student_registration table and obtained the password by decrypting it and again encrypting it and inserted the student id and password to admins_registration.The admin can click on DISPLAY STUDENTS' DATABASE to view the updated student_registration table.It has LOGOUT option to go to LOGIN PAGE.
 
 ## CODES WRITTEN:
-# 1.registration.php
+# 1.index.php
 To create STUDENT REGISTRATION PAGE
 # 2.login.php
 To create LOGIN PAGE
