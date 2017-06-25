@@ -45,5 +45,7 @@ Already registered users can login.It asks whether you are professor(admin) or s
 # 3.BULLETIN BOARD PAGE:
 FOR STUDENTS: The page just displays the student_notes table.There is LOGOUT option which redirects to login page.
 For displaying the data in table format I used php command "echo".
+![online_board](https://user-images.githubusercontent.com/28576445/27514815-b461787c-59b2-11e7-91d6-41fcd539fd3a.PNG)
 
 FOR ADMIN:The page displays 2 labels to enter subject name and corresponding note.There are 3 options:ADD(to add a note),DISPLAY(to display the student_notes table),DELETE(to delete a note).After adding or deleting a note one can use DISPLAY ption to see the updated student_ notes table.
+![online_board2](https://user-images.githubusercontent.com/28576445/27514816-b9f90002-59b2-11e7-907e-5b6191661dea.PNG)
